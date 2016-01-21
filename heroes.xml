@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heroes>
+  <hero lastModified="19/Jan/2015">
+    <name>Abathur</name>
+    <title>Evolution Master</title>
+
+    <role>
+      <range>
+        <melee/>
+      </range>
+
+      <type>
+        <specialist/>
+      </type>
+    </role>
+
+    <franchise>
+      <starcraft/>
+    </franchise>
+
+    <lifeStats>
+      <lifeAt1>550</lifeAt1>
+      <lifeAt10>1000</lifeAt10>
+      <lifeAt20>1500</lifeAt20>
+      <lifeAt30>2000</lifeAt30>
+      <healthRegen>50</healthRegen>
+    </lifeStats>
+
+    <attackStats>
+      <damage>
+        <dmgAt1>18</dmgAt1>
+        <dmgAt10>36</dmgAt10>
+        <dmgAt20>56</dmgAt20>
+        <dmgAt30>76</dmgAt30>
+      </damage>
+
+      <dps>
+        <dpsAt1>25.56</dpsAt1>
+        <dpsAt10>51.12</dpsAt10>
+        <dpsAt20>79.52</dpsAt20>
+        <dpsAt30>107.92</dpsAt30>
+      </dps>
+
+      <attackSpeed>1.42</attackSpeed>
+      <attackRange>1</attackRange>
+    </attackStats>
+  </hero>
+</heroes>

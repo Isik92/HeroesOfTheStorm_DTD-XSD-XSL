@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE heroes [
+ <!-- ########## INTRO ########## -->
+
+<!ELEMENT heroes (hero+)>
+<!ELEMENT hero (name, title, role, franchise, lifeStats, attackStats)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+
+<!-- ########## ROLE ########## -->
+
+<!ELEMENT role (range, type)>
+
+<!ELEMENT range (melee | ranged)>
+<!ELEMENT melee EMPTY>
+<!ELEMENT ranged EMPTY>
+
+<!ELEMENT type (warrior | assassin | specialist | support)>
+<!ELEMENT warrior EMPTY>
+<!ELEMENT assassin EMPTY>
+<!ELEMENT specialist EMPTY>
+<!ELEMENT support EMPTY>
+
+<!-- ########## FRANCHISE ########## -->
+
+<!ELEMENT franchise (starcraft | warcraft | diablo | blizzard | overwatch)>
+<!ELEMENT starcraft EMPTY>
+<!ELEMENT warcraft EMPTY>
+<!ELEMENT diablo EMPTY>
+<!ELEMENT blizzard EMPTY>
+<!ELEMENT overwatch EMPTY>
+
+<!-- ########## LIFESTATS ########## -->
+
+<!ELEMENT lifeStats (lifeAt1, lifeAt10, lifeAt20, lifeAt30, healthRegen)>
+<!ELEMENT lifeAt1 (#PCDATA)>
+<!ELEMENT lifeAt10 (#PCDATA)>
+<!ELEMENT lifeAt20 (#PCDATA)>
+<!ELEMENT lifeAt30 (#PCDATA)>
+<!ELEMENT healthRegen (#PCDATA)>
+
+<!-- ########## ATTACKSTATS ########## -->
+
+<!ELEMENT attackStats (damage, dps, attackSpeed, attackRange)>
+<!ELEMENT damage (dmgAt1, dmgAt10, dmgAt20, dmgAt30)>
+<!ELEMENT dmgAt1 (#PCDATA)>
+<!ELEMENT dmgAt10 (#PCDATA)>
+<!ELEMENT dmgAt20 (#PCDATA)>
+<!ELEMENT dmgAt30 (#PCDATA)>
+
+<!ELEMENT dps (dpsAt1, dpsAt10, dpsAt20, dpsAt30)>
+<!ELEMENT dpsAt1 (#PCDATA)>
+<!ELEMENT dpsAt10 (#PCDATA)>
+<!ELEMENT dpsAt20 (#PCDATA)>
+<!ELEMENT dpsAt30 (#PCDATA)>
+
+<!ELEMENT attackSpeed (#PCDATA)>
+<!ELEMENT attackRange (#PCDATA)>
+
+<!-- ########## ATTRIBUTES ########## -->
+
+<!ATTLIST hero lastModified CDATA #REQUIRED>
+
+]>

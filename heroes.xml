@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE heroes SYSTEM "heroes.dtd">
+
 <heroes>
-    <hero name="Abathur" title="Evolution Master" franchise="StarCraft">
-        <role range="Melee" type="Specialist"/>
-        <life at1="550" at10="1000" at20="1500" at30="2000" regen="50" />
-        <atk speed="1.42" range="1.00" />
-        <dmg at1="18" at10="36" at20="56" at30="76" />
-        <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
-    </hero>
+  <hero name="Starcraft" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
 </heroes>

@@ -14,22 +14,22 @@
 
 <!-- ########## HERO ########## -->
 
-<!ATTLIST hero 
+<!ATTLIST hero
     name CDATA #REQUIRED
     title CDATA #REQUIRED
-    franchise (starcraft | warcraft | diablo | blizzard | overwatch) #REQUIRED
+    franchise (Starcraft | Warcraft | Diablo | Blizzard | Overwatch) #REQUIRED
     >
 
 <!-- ########## ROLE ########## -->
 
-<!ATTLIST role 
-    range (melee | ranged) #REQUIRED
-    type (warrior | assassin | specialist | support) #REQUIRED
+<!ATTLIST role
+    range (Melee | Ranged) #REQUIRED
+    type (Warrior | Assassin | Specialist | Support) #REQUIRED
     >
 
 <!-- ########## LIFE ########## -->
 
-<!ATTLIST life 
+<!ATTLIST life
     at1 CDATA #REQUIRED
     at10 CDATA #REQUIRED
     at20 CDATA #REQUIRED
@@ -40,14 +40,14 @@
 <!-- ########## ATK ########## -->
 
 
-<!ATTLIST atk 
+<!ATTLIST atk
     speed CDATA #REQUIRED
     range CDATA #REQUIRED
     >
 
 <!-- ########## DMG ########## -->
 
-<!ATTLIST dmg 
+<!ATTLIST dmg
     at1 CDATA #REQUIRED
     at10 CDATA #REQUIRED
     at20 CDATA #REQUIRED
@@ -56,7 +56,7 @@
 
 <!-- ########## DPS ########## -->
 
-<!ATTLIST dps 
+<!ATTLIST dps
     at1 CDATA #REQUIRED
     at10 CDATA #REQUIRED
     at20 CDATA #REQUIRED

@@ -1,91 +1,55 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="heroes">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="hero">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="name"/>
-              <xs:element type="xs:string" name="title"/>
-              <xs:element name="role">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="range">
-                      <xs:complexType>
-                        <xs:choice>
-                          <xs:element name="melee"/>
-                          <xs:element name="ranged"/>
-                        </xs:choice>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="type">
-                      <xs:complexType>
-                        <xs:choice>
-                          <xs:element name="warrior"/>
-                          <xs:element name="assassin"/>
-                          <xs:element name="specialist"/>
-                          <xs:element name="support"/>
-                        </xs:choice>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="franchise">
-                <xs:complexType>
-                  <xs:choice>
-                    <xs:element name="starcraft"/>
-                    <xs:element name="warcraft"/>
-                    <xs:element name="diablo"/>
-                    <xs:element name="blizzard"/>
-                    <xs:element name="overwatch"/>
-                  </xs:choice>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="lifeStats">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:float" name="lifeAt1"/>
-                    <xs:element type="xs:float" name="lifeAt10"/>
-                    <xs:element type="xs:float" name="lifeAt20"/>
-                    <xs:element type="xs:float" name="lifeAt30"/>
-                    <xs:element type="xs:float" name="healthRegen"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="attackStats">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="damage">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:float" name="dmgAt1"/>
-                          <xs:element type="xs:float" name="dmgAt10"/>
-                          <xs:element type="xs:float" name="dmgAt20"/>
-                          <xs:element type="xs:float" name="dmgAt30"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="dps">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:float" name="dpsAt1"/>
-                          <xs:element type="xs:float" name="dpsAt10"/>
-                          <xs:element type="xs:float" name="dpsAt20"/>
-                          <xs:element type="xs:float" name="dpsAt30"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element type="xs:float" name="attackSpeed"/>
-                    <xs:element type="xs:float" name="attackRange"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute type="xs:string" name="lastModified"/>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+
+
+<xs:complexType name="heroes">
+    <xs:sequence>
+        <xs:element name="hero" type="heroType" />
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="heroType">
+    <xs:sequence>
+        <xs:element name="role" type="roleType" />
+        <xs:element name="life" type="lifeType" />
+        <xs:element name="atk" type="atkType" />
+        <xs:element name="dmg" type="dmgType" />
+        <xs:element name="dmps" type="dpsType" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="title" type="xs:string" use="required" />
+    <xs:attribute name="franchise" type="xs:string" use="required" />
+</xs:complexType>
+
+<xs:complexType name="roleType">
+    <xs:attribute name="range" type="xs:float" use="required" />
+    <xs:attribute name="type" type="xs:float" use="required" />
+</xs:complexType>
+    
+<xs:complexType name="lifeType">
+    <xs:attribute name="at1" type="xs:integer" use="required" />
+    <xs:attribute name="at10" type="xs:integer" use="required" />
+    <xs:attribute name="at20" type="xs:integer" use="required" />
+    <xs:attribute name="at30" type="xs:integer" use="required" />
+    <xs:attribute name="regen" type="xs:integer" use="required" />
+</xs:complexType>
+
+<xs:complexType name="atkType">
+    <xs:attribute name="speed" type="xs:float" use="required" />
+    <xs:attribute name="range" type="xs:float" use="required" />
+</xs:complexType>
+
+<xs:complexType name="dmgType">
+    <xs:attribute name="at1" type="xs:integer" use="required" />
+    <xs:attribute name="at10" type="xs:integer" use="required" />
+    <xs:attribute name="at20" type="xs:integer" use="required" />
+    <xs:attribute name="at30" type="xs:integer" use="required" />
+</xs:complexType>
+
+<xs:complexType name="dpsType">
+    <xs:attribute name="at1" type="xs:float" use="required" />
+    <xs:attribute name="at10" type="xs:float" use="required" />
+    <xs:attribute name="at20" type="xs:float" use="required" />
+    <xs:attribute name="at30" type="xs:float" use="required" />
+</xs:complexType>
+
 </xs:schema>

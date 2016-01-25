@@ -1,11 +1,373 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <heroes>
-  <hero name="Starcraft" title="Evolution Master" franchise="Starcraft">
+
+  <hero name="Abathur" title="Evolution Master" franchise="Starcraft">
     <role range="Melee" type="Specialist"/>
     <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
     <atk speed="1.42" range="1.0"/>
     <dmg at1="18" at10="36" at20="56" at30="76" />
     <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
   </hero>
+
+  <hero name="Anub' Arak" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Artanis" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Arthas" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Azmodan" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Brightwing" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Cho" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Diablo" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="E.T.C" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Falstad" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Gal" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Gazlowe" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Greymane" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Illidan" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Jaina" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Johanna" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Kael'thas" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Kerrigan" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Kharazim" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Leoric" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Li Li" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Lt. Morales" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Lunara" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Malfurion" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Muradin" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Murky" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Nazeebo" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Nova" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Raynor" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Rehgar" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Rexxar" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Sgt. Hammer" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Sonya" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Stitches" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Sylvanas" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Tassadar" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="The Butcher" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="The Vikings" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Thrall" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Tychus" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Tyrael" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Tyrande" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Uther" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Valla" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Zagara" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
+  <hero name="Zeratul" title="Evolution Master" franchise="Starcraft">
+    <role range="Melee" type="Specialist"/>
+    <life at1="550" at10="1000" at20="1500" at30="2000" regen="50"/>
+    <atk speed="1.42" range="1.0"/>
+    <dmg at1="18" at10="36" at20="56" at30="76" />
+    <dps at1="25.56" at10="51.12" at20="79.52" at30="107.92" />
+  </hero>
+
 </heroes>

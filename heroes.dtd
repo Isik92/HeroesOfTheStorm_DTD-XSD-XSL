@@ -1,64 +1,64 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE heroes [
- <!-- ########## INTRO ########## -->
+<!-- ########## INTRO ########## -->
 
 <!ELEMENT heroes (hero+)>
-<!ELEMENT hero (name, title, role, franchise, lifeStats, attackStats)>
+<!ELEMENT hero (role, life, atk, dmg, dps)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 
+<!ELEMENT hero EMPTY>
+<!ELEMENT role EMPTY>
+<!ELEMENT life EMPTY>
+<!ELEMENT atk EMPTY>
+<!ELEMENT dmg EMPTY>
+<!ELEMENT dps EMPTY>
+
+<!-- ########## HERO ########## -->
+
+<!ATTLIST hero
+    name CDATA #REQUIRED
+    title CDATA #REQUIRED
+    franchise (Starcraft | Warcraft | Diablo | Blizzard | Overwatch) #REQUIRED
+    >
+
 <!-- ########## ROLE ########## -->
 
-<!ELEMENT role (range, type)>
+<!ATTLIST role
+    range (Melee | Ranged) #REQUIRED
+    type (Warrior | Assassin | Specialist | Support) #REQUIRED
+    >
 
-<!ELEMENT range (melee | ranged)>
-<!ELEMENT melee EMPTY>
-<!ELEMENT ranged EMPTY>
+<!-- ########## LIFE ########## -->
 
-<!ELEMENT type (warrior | assassin | specialist | support)>
-<!ELEMENT warrior EMPTY>
-<!ELEMENT assassin EMPTY>
-<!ELEMENT specialist EMPTY>
-<!ELEMENT support EMPTY>
+<!ATTLIST life
+    at1 CDATA #REQUIRED
+    at10 CDATA #REQUIRED
+    at20 CDATA #REQUIRED
+    at30 CDATA #REQUIRED
+    regen CDATA #REQUIRED
+    >
 
-<!-- ########## FRANCHISE ########## -->
+<!-- ########## ATK ########## -->
 
-<!ELEMENT franchise (starcraft | warcraft | diablo | blizzard | overwatch)>
-<!ELEMENT starcraft EMPTY>
-<!ELEMENT warcraft EMPTY>
-<!ELEMENT diablo EMPTY>
-<!ELEMENT blizzard EMPTY>
-<!ELEMENT overwatch EMPTY>
 
-<!-- ########## LIFESTATS ########## -->
+<!ATTLIST atk
+    speed CDATA #REQUIRED
+    range CDATA #REQUIRED
+    >
 
-<!ELEMENT lifeStats (lifeAt1, lifeAt10, lifeAt20, lifeAt30, healthRegen)>
-<!ELEMENT lifeAt1 (#PCDATA)>
-<!ELEMENT lifeAt10 (#PCDATA)>
-<!ELEMENT lifeAt20 (#PCDATA)>
-<!ELEMENT lifeAt30 (#PCDATA)>
-<!ELEMENT healthRegen (#PCDATA)>
+<!-- ########## DMG ########## -->
 
-<!-- ########## ATTACKSTATS ########## -->
+<!ATTLIST dmg
+    at1 CDATA #REQUIRED
+    at10 CDATA #REQUIRED
+    at20 CDATA #REQUIRED
+    at30 CDATA #REQUIRED
+          >
 
-<!ELEMENT attackStats (damage, dps, attackSpeed, attackRange)>
-<!ELEMENT damage (dmgAt1, dmgAt10, dmgAt20, dmgAt30)>
-<!ELEMENT dmgAt1 (#PCDATA)>
-<!ELEMENT dmgAt10 (#PCDATA)>
-<!ELEMENT dmgAt20 (#PCDATA)>
-<!ELEMENT dmgAt30 (#PCDATA)>
+<!-- ########## DPS ########## -->
 
-<!ELEMENT dps (dpsAt1, dpsAt10, dpsAt20, dpsAt30)>
-<!ELEMENT dpsAt1 (#PCDATA)>
-<!ELEMENT dpsAt10 (#PCDATA)>
-<!ELEMENT dpsAt20 (#PCDATA)>
-<!ELEMENT dpsAt30 (#PCDATA)>
-
-<!ELEMENT attackSpeed (#PCDATA)>
-<!ELEMENT attackRange (#PCDATA)>
-
-<!-- ########## ATTRIBUTES ########## -->
-
-<!ATTLIST hero lastModified CDATA #REQUIRED>
-
-]>
+<!ATTLIST dps
+    at1 CDATA #REQUIRED
+    at10 CDATA #REQUIRED
+    at20 CDATA #REQUIRED
+    at30 CDATA #REQUIRED
+    >
